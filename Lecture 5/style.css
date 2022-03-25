@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url('images/superior.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+nav {
+	padding: 30px 70px;
+	display: flex;
+	align-items: center;
+} 
+
+nav ul {
+	flex: 1;
+	text-align:  right;
+	list-style: none;
+}
+
+nav ul li {
+	color: white;
+	display: inline-block;
+	margin: 10px 20px;
+	border: 1px solid white;
+	padding: 5px 5px;
+	width: 65px;
+	text-align: center;
+}
+
+nav ul li:hover {
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+
+
+img {
+	width: 70px;
+}
+
+.main-content {
+	text-align: center;
+}
+
+.main-content h1 {
+	color: white;
+	margin: 70px auto;
+}
+
+.main-content a {
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 5px 10px;
+}
+
+.main-content a:hover{
+	color: black;
+	background-color: white;
+}
+
+
+
+
+
+
+
